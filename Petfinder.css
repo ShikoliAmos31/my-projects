@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: brown;
+    color: black;
+    text-align: sideways;
+    padding: 20px;
+}
+
+nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section#available-puppies, aside {
+    padding: 20px;
+}
+
+.puppy-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.puppy {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.puppy-details {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside form label, aside form select, aside form button {
+    margin: 10px 0;
+}
